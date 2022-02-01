@@ -1,0 +1,6 @@
+name:  City Weather module
+description: Gets weather details of city and country from OpeanWeatherMap API
+package: Custom
+type: module
+configure: cityweather.config
+core_version_requirement: ^8.8.0 || ^9 || ^10

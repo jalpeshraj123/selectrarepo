@@ -1,0 +1,5 @@
+{{ attach_library('cityweather/cityweather') }}
+<div class="cityweatherdiv">
+  <img src="http://openweathermap.org/img/wn/{{ cityweather.weather.0.icon }}@2x.png"></img>
+  <div class="weather-temp">{{ cityweather.main.temp }} &#8451
+  <p class="weather-city-name"> {{ cityweather.name }} </p> </div>

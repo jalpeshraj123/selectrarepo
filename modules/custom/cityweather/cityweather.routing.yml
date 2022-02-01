@@ -1,0 +1,7 @@
+cityweather.config:
+  path: '/admin/config/system/cityweather'
+  defaults:
+    _title: 'City Weather configuration'
+    _form: '\Drupal\cityweather\Form\CityWeatherForm'
+  requirements:
+    _permission: 'administer site configuration'
