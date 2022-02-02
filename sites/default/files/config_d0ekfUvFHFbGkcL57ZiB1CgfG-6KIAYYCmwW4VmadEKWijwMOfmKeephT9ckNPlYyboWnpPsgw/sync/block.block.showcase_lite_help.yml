@@ -1,0 +1,22 @@
+uuid: 5b91d0e5-3571-40e2-bdd5-6a21f76fb55c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - showcase_lite
+_core:
+  default_config_hash: x_Qls3I0RpJDS5Zi99ycvVu6bDCV74aIvrWRl47HyOs
+id: showcase_lite_help
+theme: showcase_lite
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

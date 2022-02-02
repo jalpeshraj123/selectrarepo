@@ -1,0 +1,20 @@
+uuid: 3acd7196-c9fb-4a8e-8f63-1f3b83a6f74f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - node.type.page
+  module:
+    - user
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content: {  }
+hidden:
+  body: true
+  links: true
+  search_api_excerpt: true

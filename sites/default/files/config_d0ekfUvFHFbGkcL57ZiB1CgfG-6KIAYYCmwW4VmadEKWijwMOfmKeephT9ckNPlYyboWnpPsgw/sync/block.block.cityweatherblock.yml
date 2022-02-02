@@ -1,0 +1,28 @@
+uuid: 00fb517b-2181-4b16-a18d-d07b5295d1cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - cityweather
+    - node
+  theme:
+    - selectra
+id: cityweatherblock
+theme: selectra
+region: sidebar_second
+weight: 0
+provider: null
+plugin: cityweather_block
+settings:
+  id: cityweather_block
+  label: 'City Weather block'
+  label_display: '0'
+  provider: cityweather
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      city: city

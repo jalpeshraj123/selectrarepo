@@ -1,0 +1,28 @@
+uuid: d732f8ed-1fe7-400a-809f-f258429fe4a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - selectra
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: selectra_local_tasks
+theme: selectra
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '</front>'

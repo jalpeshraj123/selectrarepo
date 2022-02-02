@@ -1,0 +1,26 @@
+uuid: ee007bde-3ef9-425b-9f62-f523e681dfe1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - showcase_lite
+_core:
+  default_config_hash: j3i6hwOJc5B5H3F4WVhGCSTFmQNk7EqApIguw3b4mXc
+id: showcase_lite_page_title
+theme: showcase_lite
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

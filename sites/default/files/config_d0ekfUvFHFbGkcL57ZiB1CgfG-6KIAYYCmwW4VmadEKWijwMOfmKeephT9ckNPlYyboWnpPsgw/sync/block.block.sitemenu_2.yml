@@ -1,0 +1,25 @@
+uuid: e3eda5ec-a116-45fd-a105-5bdb5ffa438e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.site-menu
+  module:
+    - system
+  theme:
+    - tara
+id: sitemenu_2
+theme: tara
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:site-menu'
+settings:
+  id: 'system_menu_block:site-menu'
+  label: 'Site Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

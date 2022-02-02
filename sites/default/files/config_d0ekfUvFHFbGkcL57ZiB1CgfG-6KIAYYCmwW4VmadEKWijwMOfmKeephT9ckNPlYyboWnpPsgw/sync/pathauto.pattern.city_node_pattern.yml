@@ -1,0 +1,22 @@
+uuid: 727da29c-059f-40b0-bec2-c74fdda87d49
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: city_node_pattern
+label: 'City node pattern'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  4c128d9d-2ac6-4a8f-bd37-c6d7106b99d1:
+    id: node_type
+    negate: false
+    uuid: 4c128d9d-2ac6-4a8f-bd37-c6d7106b99d1
+    context_mapping:
+      node: node
+    bundles:
+      city: city
+selection_logic: and
+weight: -5
+relationships: {  }

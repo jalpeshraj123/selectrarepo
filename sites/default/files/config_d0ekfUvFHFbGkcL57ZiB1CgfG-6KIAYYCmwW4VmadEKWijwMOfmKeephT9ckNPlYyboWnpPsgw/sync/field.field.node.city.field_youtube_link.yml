@@ -1,0 +1,21 @@
+uuid: 787c5abe-8a8e-4e9c-b1fa-93e1f323837b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube_link
+    - node.type.city
+  module:
+    - youtube
+id: node.city.field_youtube_link
+field_name: field_youtube_link
+entity_type: node
+bundle: city
+label: 'YouTube Link'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube

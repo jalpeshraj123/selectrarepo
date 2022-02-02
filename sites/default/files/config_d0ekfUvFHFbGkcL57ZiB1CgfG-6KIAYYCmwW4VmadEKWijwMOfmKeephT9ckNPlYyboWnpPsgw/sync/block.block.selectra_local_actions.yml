@@ -1,0 +1,20 @@
+uuid: 6627dea1-1669-45bc-8269-7c041787c71d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - selectra
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: selectra_local_actions
+theme: selectra
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

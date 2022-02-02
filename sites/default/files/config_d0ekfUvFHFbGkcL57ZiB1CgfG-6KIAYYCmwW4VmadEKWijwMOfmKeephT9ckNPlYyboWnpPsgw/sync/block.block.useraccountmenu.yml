@@ -1,0 +1,25 @@
+uuid: 174dbf57-5e31-4e98-9899-48cde8d8495d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - selectra
+id: useraccountmenu
+theme: selectra
+region: navigation_collapsible
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

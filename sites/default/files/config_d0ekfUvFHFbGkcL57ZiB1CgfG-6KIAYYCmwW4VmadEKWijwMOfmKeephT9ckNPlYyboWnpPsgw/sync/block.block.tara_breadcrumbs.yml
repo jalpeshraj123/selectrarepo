@@ -1,0 +1,22 @@
+uuid: 688ad01c-f818-4b1d-9fb4-a94386a9c6c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tara
+_core:
+  default_config_hash: cL11xuvgbDwRtGEQLBQ0vuywqHSwOo9oXtztdmgiTfk
+id: tara_breadcrumbs
+theme: tara
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

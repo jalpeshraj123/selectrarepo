@@ -1,0 +1,29 @@
+uuid: 1fc7ee87-052b-48e9-91cd-a50ddf2ad5bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.most_visited_city
+  module:
+    - system
+    - views
+  theme:
+    - showcase_lite
+id: views_block__most_visited_city_block_1_2
+theme: showcase_lite
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:most_visited_city-block_1'
+settings:
+  id: 'views_block:most_visited_city-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

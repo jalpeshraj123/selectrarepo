@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 48df3ed2-286c-4a97-a0ee-a0be527236f7
+name: 'Selectra POC'
+mail: jalpeshraj123@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/13
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

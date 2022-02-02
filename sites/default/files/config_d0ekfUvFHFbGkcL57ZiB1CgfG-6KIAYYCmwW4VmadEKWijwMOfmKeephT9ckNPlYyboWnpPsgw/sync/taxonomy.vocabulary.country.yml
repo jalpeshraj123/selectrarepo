@@ -1,0 +1,8 @@
+uuid: 324dd560-67ca-4133-a1ec-04a0dcf5513a
+langcode: en
+status: true
+dependencies: {  }
+name: Country
+vid: country
+description: 'List of country for reference.'
+weight: 0

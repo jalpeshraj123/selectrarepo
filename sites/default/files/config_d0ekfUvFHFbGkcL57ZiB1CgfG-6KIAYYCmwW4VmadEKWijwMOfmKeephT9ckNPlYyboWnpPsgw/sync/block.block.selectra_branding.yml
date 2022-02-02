@@ -1,0 +1,25 @@
+uuid: 66cab7be-7153-46a6-b12f-b6384e4d4b42
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - selectra
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: selectra_branding
+theme: selectra
+region: navigation
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

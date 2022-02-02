@@ -1,0 +1,22 @@
+uuid: 1c8fa596-3798-4172-bd2d-098ec62e1ee0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - selectra
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: selectra_messages
+theme: selectra
+region: highlighted
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
